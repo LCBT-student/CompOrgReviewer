@@ -1,0 +1,2 @@
+jupyter==1.1.1
+JupyterQuiz==2.9.6.2
