@@ -1,62 +1,770 @@
 [
     {
-        "question": "Choose all of the following that can be included in Jupyter notebooks?",
+        "question": "What computer part does arithmetic and logic operations?",
         "type": "many_choice",
         "answers": [
             {
-                "answer": "Text and graphics output from Python",
-                "correct": true,
-                "feedback": "Correct."
+                "answer": "ALU",
+                "correct": true
             },
             {
-                "answer": "Typeset mathematics",
-                "correct": true,
-                "feedback": "Correct."
+                "answer": "Adder-Subtractor",
+                "correct": false
             },
             {
-                "answer": "Python executable code",
-                "correct": true,
-                "feedback": "Correct."
+                "answer": "Register",
+                "correct": false
             },
             {
-                "answer": "Formatted text",
-                "correct": true,
-                "feedback": "Correct."
-            },
-            {
-                "answer": "Live snakes via Python",
-                "correct": false,
-                "feedback": "I hope not."
-            }
-        ],
-        "question": "Choose all of the fllowing that can be included in Jupyter notebooks?",
-        "type": "many_choice",
-        "answers": [
-            {
-                "answer": "Text and raphics output from Python",
-                "correct": true,
-                "feedback": "Corect."
-            },
-            {
-                "answer": "Typeset athematics",
-                "correct": true,
-                "feedback": "Corect."
-            },
-            {
-                "answer": "Python exeutable code",
-                "correct": true,
-                "feedback": "Corrct."
-            },
-            {
-                "answer": "Formated text",
-                "correct": true,
-                "feedback": "Corrct."
-            },
-            {
-                "answer": "Live snaes via Python",
-                "correct": false,
-                "feedback": "I hope not."
+                "answer": "I/O",
+                "correct": false
             }
         ]
-    }
+    },
+    {
+        "question": "Choose all of the following that an ALU can do?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Add",
+                "correct": true
+            },
+            {
+                "answer": "Bitwise-or",
+                "correct": true
+            },
+            {
+                "answer": "Send control signals",
+                "correct": false
+            },
+            {
+                "answer": "Write to registers",
+                "correct": true
+            },
+            {
+                "answer": "Read from registers",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "A register is a temporary storage location within the __",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Processor",
+                "correct": true,
+                "match_case":false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following are not memory characteristics?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Address",
+                "correct": true
+            },
+            {
+                "answer": "Capacitance",
+                "correct": true
+            },
+            {
+                "answer": "Location",
+                "correct": false
+            },
+            {
+                "answer": "Unit of Transfer",
+                "correct": false
+            },
+            {
+                "answer": "Unit of Accessing",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is/are memory capacity typically be expressed as?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Bytes",
+                "correct": true
+            },
+            {
+                "answer": "Words",
+                "correct": true
+            },
+            {
+                "answer": "Bits",
+                "correct": false
+            },
+            {
+                "answer": "Blocks",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Whether memory is Internal or External describes its __",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Location",
+                "correct": true,
+                "match_case":false
+            }
+        ]
+    },
+    {
+        "question": "A word is the __ of organization of memory?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "natural unit",
+                "correct": true
+            },
+            {
+                "answer": "optimal unit",
+                "correct": false
+            },
+            {
+                "answer": "arbitrary unit",
+                "correct": false
+            },
+            {
+                "answer": "default unit",
+                "correct": false,
+                "feedback": "Not always"
+            },
+            {
+                "answer": "addressable unit",
+                "correct": false,
+                "feedback": "Not always"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following may Unit of Transfer be typically equal to",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "word length",
+                "correct": true
+            },
+            {
+                "answer": "a block",
+                "correct": true
+            },
+            {
+                "answer": "larger than word length",
+                "correct": true
+            },
+            {
+                "answer": "number of electrical lines connected to the memory module",
+                "correct": true
+            },
+            {
+                "answer": "record length",
+                "correct": false
+            },
+            {
+                "answer": "cache length",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Which of the following is/are not a method of accessing units of data?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Linear Access",
+                "correct": true
+            },
+            {
+                "answer": "Sequential Access",
+                "correct": false
+            },
+            {
+                "answer": "Associative",
+                "correct": false
+            },
+            {
+                "answer": "Direct Access",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Access time for random access memory is __, while access time for sequential and direct access are not",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Location",
+                "correct": true,
+                "match_case":false
+            }
+        ]
+    }, 
+    {
+        "question": "Access time, Memory Cycle Time, and Transfer Rate are the parameters for measuring ___",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Performance",
+                "correct": true
+            },
+            {
+                "answer": "Method of Accessing data",
+                "correct": false
+            },
+            {
+                "answer": "Physical Characteristics",
+                "correct": false
+            },
+            {
+                "answer": "Capacity",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Latency is another word for __?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Access Time",
+                "correct": true
+            },
+            {
+                "answer": "Memory Cycle Time",
+                "correct": false
+            },
+            {
+                "answer": "Transfer Rate",
+                "correct": false
+            },
+            {
+                "answer": "Capacity",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Memory cycle time is not concerned with the processor, but rather the __",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "System bus",
+                "correct": true,
+                "match_case":false
+            }
+        ]
+    },
+    {
+        "question": "In the equation 'Tn = TA + (n/R)', what is 'R' measured in?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Reads per second (rps)",
+                "correct": false
+            },
+            {
+                "answer": "Bits per second (bps)",
+                "correct": true
+            },
+            {
+                "answer": "Bytes per second (Bps)",
+                "correct": false
+            },
+            {
+                "answer": "Writes per cycle (Wpc)",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Give an example of a physical type of memory: ",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Semiconductor memory",
+                "correct": true,
+                "match_case": false
+            },
+            {
+                "answer": "Semi-conductor memory",
+                "correct": false,
+                "match_case": false,
+                "feedback": "It should be 'semiconductor', without the '-'"
+            },
+            {
+                "answer": "Magnetic surface memory",
+                "correct": true,
+                "match_case": false
+            },
+            {
+                "answer": "Magnetic-surface memory",
+                "correct": false,
+                "match_case": false,
+                "feedback": "It should be 'magnetic surface', without the '-'"
+            },
+            {
+                "answer": "Optical memory",
+                "correct": true,
+                "match_case": false
+            },
+            {
+                "answer": "Optical",
+                "correct": true,
+                "match_case": false
+            },
+            {
+                "answer": "Magneto-optical memory",
+                "correct": true,
+                "match_case": false
+            },
+            {
+                "answer": "Magneto-optical",
+                "correct": true,
+                "match_case": false
+            },
+            {
+                "answer": "Magneto optical memory",
+                "correct": false,
+                "match_case": false,
+                "feedback": "It's 'magneto-optical', with the '-'"
+            },
+            {
+                "answer": "Magneto optical",
+                "correct": false,
+                "match_case": false,
+                "feedback": "It's 'magneto-optical', with the '-'"
+            }
+        ]
+    }, 
+    {
+        "question": "Volatile, nonvolatile, and nonerasable are examples of __ of data storage",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Physical Characteristics",
+                "correct": true
+            },
+            {
+                "answer": "Physical Type",
+                "correct": false
+            },
+            {
+                "answer": "Organization",
+                "correct": false
+            },
+            {
+                "answer": "Method of Accessing",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "If memory was both volatile and __, it would be impractical",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Nonerasable",
+                "correct": true,
+                "match_case":false
+            },
+            {
+                "answer": "Non-erasable",
+                "correct": false,
+                "match_case":false,
+                "feedback": "It should be 'nonerasable', without the '-'"
+            }
+        ]
+    },
+    {
+        "question": "Which of the following are not the same?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Organization and Endianness",
+                "correct": true
+            },
+            {
+                "answer": "Access time and latency",
+                "correct": false
+            },
+            {
+                "answer": "Bitwise operations and bit twiddling",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "A memory cell stores __",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "A bit",
+                "correct": true
+            },
+            {
+                "answer": "Bits",
+                "correct": false
+            },
+            {
+                "answer": "A byte",
+                "correct": false
+            },
+            {
+                "answer": "Bytes",
+                "correct": false
+            },
+            {
+                "answer": "A word",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Choose all of the choices that are not erasable electrically",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "ROM",
+                "correct": true
+            },
+            {
+                "answer": "PROM",
+                "correct": true
+            },
+            {
+                "answer": "EPROM",
+                "correct": true
+            },
+            {
+                "answer": "EEPROM",
+                "correct": false
+            },
+            {
+                "answer": "Flash Memory",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "ROM is written to using what? (1 word)",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Mask",
+                "correct": true,
+                "match_case":false
+            },
+            {
+                "answer": "Masks",
+                "correct": true,
+                "match_case":false
+            }
+        ]
+    },
+    {
+        "question": "EPROM, EEPROM, and Flash memory are this category of memory",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Read-mostly",
+                "correct": true,
+                "match_case":false
+            },
+            {
+                "answer": "Readmostly",
+                "correct": false,
+                "match_case":false,
+                "feedback": "It should be 'read-mostly', with the '-'"
+            }
+        ]
+    }, 
+    {
+        "question": "Memory banks can be grouped to form __ memory",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Interleaved",
+                "correct": true,
+                "match_case":false
+            },
+            {
+                "answer": "Inter-leaved",
+                "correct": false,
+                "match_case":false,
+                "feedback": "It should be 'interleaved', without the '-'"
+            },
+            {
+                "type": "default",
+                "feedback": "Interleaved"
+            }
+        ]
+    }, 
+    {
+        "question": "How often is an opcode part of machine language instructions?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Always",
+                "correct": true
+            },
+            {
+                "answer": "Never",
+                "correct": false
+            },
+            {
+                "answer": "Sometimes",
+                "correct": false
+            },
+            {
+                "answer": "Most of the time",
+                "correct": false
+            },
+            {
+                "answer": "Depends on the hardware",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Which of the following is/are opcode categories?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Data Transfer",
+                "correct": true
+            },
+            {
+                "answer": "System Transfer",
+                "correct": false
+            },
+            {
+                "answer": "I/O",
+                "correct": true
+            },
+            {
+                "answer": "Conversion of control",
+                "correct": false
+            },
+            {
+                "answer": "Arithmetic",
+                "correct": true
+            }
+        ]
+    }, 
+    {
+        "question": "Which of the following operations is the simplest based on processor action?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Data Transfer",
+                "correct": true
+            },
+            {
+                "answer": "I/O",
+                "correct": false
+            },
+            {
+                "answer": "Logical",
+                "correct": false
+            },
+            {
+                "answer": "Arithmetic",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Doing bitwise operations is also called bit __",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Twiddling",
+                "correct": true,
+                "match_case":false
+            },
+            {
+                "type": "default",
+                "feedback": "Twiddling"
+            }
+        ]
+    }, 
+    {
+        "question": "Which of the following shifting operations can shift in a 1?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Arithmetic right shift",
+                "correct": true
+            },
+            {
+                "answer": "Logical left shift",
+                "correct": false
+            },
+            {
+                "answer": "Logical right shift",
+                "correct": false
+            },
+            {
+                "answer": "Arithmetic left shift",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "What does PC in a CPU stand for?",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Program counter",
+                "correct": true,
+                "match_case":false
+            },
+            {
+                "type": "default",
+                "feedback": "Program counter"
+            }
+        ]
+    }, 
+    {
+        "question": "What is known as a set of wires that components can share?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Bus",
+                "correct": true
+            },
+            {
+                "answer": "Memory",
+                "correct": false
+            },
+            {
+                "answer": "ALU",
+                "correct": false
+            },
+            {
+                "answer": "I/O",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Which of the following requires more space?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Bus-Based CPU",
+                "correct": true
+            },
+            {
+                "answer": "Non-Bus-Based CPU",
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "Pick the options that have the correct relationship/s",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Bus-Based CPU -> Microprogramming",
+                "correct": true
+            },
+            {
+                "answer": "RISC <- Hardwired control",
+                "correct": true
+            },
+            {
+                "answer": "RISC -> Hardwired Control",
+                "correct": false
+            },
+            {
+                "answer": "Non-Bus-Based CPU -> CISC" ,
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "This class utilizes RISC, what is this also known as?",
+        "type": "string",
+        "answers": [
+            {
+                "answer": "Load-Store Architecture",
+                "correct": true,
+                "match_case":false
+            },
+            {
+                "type": "default",
+                "feedback": "Load-Store Architecture"
+            }
+        ]
+    }, 
+    {
+        "question": "Which two of the following comprises the instruction set?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Visible state",
+                "correct": true
+            },
+            {
+                "answer": "Operations on state",
+                "correct": true
+            },
+            {
+                "answer": "Contract on state",
+                "correct": false
+            },
+            {
+                "answer": "Interface state" ,
+                "correct": false
+            },
+            {
+                "answer": "Set state" ,
+                "correct": false
+            }
+        ]
+    }, 
+    {
+        "question": "If the label is 3 lines before the branch instruction, what is the word displacement?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "-4",
+                "correct": true
+            },
+            {
+                "answer": "-5",
+                "correct": false
+            },
+            {
+                "answer": "3",
+                "correct": false
+            },
+            {
+                "answer": "4" ,
+                "correct": false
+            },
+            {
+                "answer": "0" ,
+                "correct": false
+            },
+            {
+                "answer": "5" ,
+                "correct": false
+            },
+            {
+                "answer": "-3" ,
+                "correct": false
+            }
+        ]
+    } 
 ]
